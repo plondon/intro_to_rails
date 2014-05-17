@@ -34,13 +34,13 @@ No use in sidestepping though, let's jump right in. The first thing you'll notic
 
     HTTP Verb |Path             |Controller & Action|Use case
     ----------|-----------------|-------------------|----------------------------
-    GET       |/users           |=> user#index      |display a list of all users
-    GET       |/users/new       |=> user#new        |return an HTML form for creating a new user
-    POST      |/users           |=> user#create     |create a new user
-    GET       |/users/:id       |=> user#show       |display a specific user
-    GET       |/users/:id/edit  |=> user#edit       |return an HTML form for editing a user
-    PUT       |/users/:id       |=> user#update     |update a specific user
-    DELETE    |/users/:id       |=> user#destroy    |delete a specific user
+    GET       |/users           |=> users#index      |display a list of all users
+    GET       |/users/new       |=> users#new        |return an HTML form for creating a new user
+    POST      |/users           |=> users#create     |create a new user
+    GET       |/users/:id       |=> users#show       |display a specific user
+    GET       |/users/:id/edit  |=> users#edit       |return an HTML form for editing a user
+    PUT       |/users/:id       |=> users#update     |update a specific user
+    DELETE    |/users/:id       |=> users#destroy    |delete a specific user
 
 Rather than reinvent the wheel, I'm going to outsource the rest of your learning on this part. Keith Tom has put together an excellent guide that I strongly encourage you to read. In fact, if you only have time for one guide, stop reading this one and go through his. You can find it <a href="https://gist.github.com/keithtom/3f311c392326bc659b54#readme" target="_blank">here</a>.
 
